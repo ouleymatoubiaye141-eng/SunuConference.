@@ -21,7 +21,7 @@ export function Btn({
   children: React.ReactNode;
   variant?: "primary" | "secondary" | "ghost" | "danger" | "success";
   size?: "sm" | "md" | "lg";
-  onClick?: () => void;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
   className?: string;
   style?: React.CSSProperties;
   disabled?: boolean;
