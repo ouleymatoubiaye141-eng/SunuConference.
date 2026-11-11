@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Laravel
+/sunuconference-backend/storage/*.key
+/sunuconference-backend/bootstrap/cache/*.php
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+*.zip
